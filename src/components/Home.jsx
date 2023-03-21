@@ -1,10 +1,12 @@
 import React from "react";
+import Card from "./ArticleCard";
 import Footer from "./Footer";
 import Header from "./Header";
 
 function Home() {
   return (
     <div className="homeStyle">
+      {/* left side minu */}
       <div id="fh5co-offcanvas">
         <a
           href="./Home.jsx"
@@ -87,7 +89,7 @@ function Home() {
       {/* <!-- END #fh5co-header --> */}
       <div className="container-fluid">
         <div className="row fh5co-post-entry">
-          <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+          {/* <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
             <figure>
               <a href="./Single.jsx">
                 <img
@@ -104,8 +106,9 @@ function Home() {
               <a href="./Single.jsx">We Eat and Drink All Night</a>
             </h2>
             <span className="fh5co-meta fh5co-date">March 6th, 2016</span>
-          </article>
-          <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+          </article> */}
+          <Card imgPath="../../public/assets/images/pic_1.jpg" />
+          {/* <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
             <figure>
               <a href="./Single.jsx">
                 <img
@@ -122,7 +125,8 @@ function Home() {
               <a href="./Single.jsx">Beef Steak at Guatian Restaurant</a>
             </h2>
             <span className="fh5co-meta fh5co-date">March 6th, 2016</span>
-          </article>
+          </article> */}
+          <Card imgPath="../../public/assets/images/pic_2.jpg" />
           <div className="clearfix visible-xs-block"></div>
           <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
             <figure>
@@ -161,6 +165,7 @@ function Home() {
             <span className="fh5co-meta fh5co-date">March 6th, 2016</span>
           </article>
           <div className="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+
           <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
             <figure>
               <a href="./Single.jsx">
@@ -312,6 +317,7 @@ function Home() {
             <span className="fh5co-meta fh5co-date">March 6th, 2016</span>
           </article>
           <div className="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+
           <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
             <figure>
               <a href="./Single.jsx">
