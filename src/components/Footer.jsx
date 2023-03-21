@@ -3,13 +3,21 @@ function Footer() {
     <footer id="fh5co-footer">
       <p>
         <small>
-          &copy; 2016. Magazine Free HTML5. All Rights Reserverd. <br />
-          Designed by
-          <a href="http://freehtml5.co" target="_blank" rel="noreferrer">
-            FREEHTML5.co
+          &copy; 2023. Magazine TM News. <br />
+          Designed by &nbsp;
+          <a
+            href="https://github.com/engahmadnahal/NewsScrapReact"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Athar Team
           </a>
-          Demo Images:
-          <a href="http://unsplash.com/" target="_blank" rel="noreferrer">
+          &nbsp; Demo Images:&nbsp;
+          <a
+            href="http://unsplash.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Unsplash
           </a>
         </small>
