@@ -1,3 +1,7 @@
+import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
+
 function Single() {
   return (
     <div className="singlePage">
@@ -77,7 +81,7 @@ function Single() {
       </div>
 
       {/* <!-- END #fh5co-offcanvas --> */}
-      <header id="fh5co-header">
+      {/* <header id="fh5co-header">
         <div class="container-fluid">
           <div class="row">
             <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle">
@@ -109,7 +113,8 @@ function Single() {
             </div>
           </div>
         </div>
-      </header>
+      </header> */}
+      <Header />
       <a href="#" class="fh5co-post-prev">
         <span>
           <i class="icon-chevron-left"></i> Prev
@@ -388,8 +393,8 @@ function Single() {
           </article>
         </div>
       </div>
-
-      <footer id="fh5co-footer">
+      <Footer />
+      {/* <footer id="fh5co-footer">
         <p>
           <small>
             &copy; 2016. Magazine Free HTML5. All Rights Reserverd. <br />{" "}
@@ -403,7 +408,7 @@ function Single() {
             </a>
           </small>
         </p>
-      </footer>
+      </footer> */}
     </div>
   );
 }
