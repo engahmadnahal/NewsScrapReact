@@ -5,10 +5,7 @@ function Header() {
     <>
       {/* <!--  #fh5co-offcanvas --> */}
       <div id="fh5co-offcanvas">
-        <a
-          href="../App.js"
-          className="fh5co-close-offcanvas js-fh5co-close-offcanvas"
-        >
+        <a href="/" className="fh5co-close-offcanvas js-fh5co-close-offcanvas">
           <span>
             <i className="icon-cross3"></i> <span>Close</span>
           </span>
@@ -29,17 +26,17 @@ function Header() {
           </p>
           <ul className="fh5co-social">
             <li>
-              <a href="../App.js">
+              <a href="/">
                 <i className="icon-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="../App.js">
+              <a href="/">
                 <i className="icon-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="../App.js">
+              <a href="/">
                 <i className="icon-instagram"></i>
               </a>
             </li>
@@ -51,19 +48,19 @@ function Header() {
             <h3 className="heading">Categories</h3>
             <ul>
               <li>
-                <a href="./Single.jsx">Travel</a>
+                <a href="./Single">Travel</a>
               </li>
               <li>
-                <a href="../App.js">Style</a>
+                <a href="../Single">Style</a>
               </li>
               <li>
-                <a href="../App.js">Photography</a>
+                <a href="../Single">Photography</a>
               </li>
               <li>
-                <a href="../App.js">Food &amp; Drinks</a>
+                <a href="../Single">Food &amp; Drinks</a>
               </li>
               <li>
-                <a href="../App.js">Culture</a>
+                <a href="../Single">Culture</a>
               </li>
             </ul>
           </div>
@@ -85,32 +82,29 @@ function Header() {
       <header id="fh5co-header">
         <div className="container-fluid">
           <div className="row">
-            <a
-              href="./Home.jsx"
-              className="js-fh5co-nav-toggle fh5co-nav-toggle"
-            >
+            <a href="/" className="js-fh5co-nav-toggle fh5co-nav-toggle">
               <i></i>
             </a>
             <ul className="fh5co-social">
               <li>
-                <a href="./Home.jsx">
+                <a href="/">
                   <i className="icon-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="./Home.jsx">
+                <a href="/">
                   <i className="icon-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="./Home.jsx">
+                <a href="/">
                   <i className="icon-instagram"></i>
                 </a>
               </li>
             </ul>
             <div className="col-lg-12 col-md-12 text-center">
               <h1 id="fh5co-logo">
-                <a href="./Home.jsx">
+                <a href="/">
                   Magazine <sup>TM</sup>
                 </a>
               </h1>

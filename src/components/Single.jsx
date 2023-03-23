@@ -3,12 +3,12 @@ import React from "react";
 function Single() {
   return (
     <div className="singlePage">
-      <a href="./Single.jsx" className="fh5co-post-prev">
+      <a href="/" className="fh5co-post-prev">
         <span>
           <i className="icon-chevron-left"></i> Prev
         </span>
       </a>
-      <a href="./Single.jsx" className="fh5co-post-next">
+      <a href="./Single" className="fh5co-post-next">
         <span>
           Next <i className="icon-chevron-right"></i>
         </span>
@@ -19,15 +19,15 @@ function Single() {
             <figure className="animate-box">
               <img
                 src={require("../images/single_1.jpg")}
-                alt="Image"
+                alt="phot"
                 className="img-responsive"
               />
             </figure>
             <span className="fh5co-meta animate-box">
-              <a href="./Single.jsx">Travel</a>
+              <a href="/Single">Travel</a>
             </span>
             <h2 className="fh5co-article-title animate-box">
-              <a href="./Single.jsx">My First Time Traveling in Vietnam</a>
+              <a href="/Single">My First Time Traveling in Vietnam</a>
             </h2>
             <span className="fh5co-meta fh5co-date animate-box">
               March 6th, 2016
@@ -41,7 +41,7 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="./Single.jsx">language</a>
+                    <a href="/Single">language</a>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences
@@ -136,7 +136,7 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="./Single.jsx">language</a>
+                    <a href="/Single">language</a>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences
@@ -186,7 +186,7 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="./Single.jsx">language</a>
+                    <a href="/Single">language</a>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences
@@ -203,7 +203,7 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="./Single.jsx">language</a>
+                    <a href="/Single">language</a>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences
@@ -268,8 +268,8 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="./Single.jsx">language</a> ocean. A small river
-                    named Duden flows by their place and supplies it with the
+                    <a href="/Single">language</a> ocean. A small river named
+                    Duden flows by their place and supplies it with the
                     necessary regelialia. It is a paradisematic country, in
                     which roasted parts of sentences fly into your mouth.
                   </p>
