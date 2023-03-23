@@ -1,88 +1,8 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
 
 function Single() {
   return (
     <div className="singlePage">
-      <div id="fh5co-offcanvas">
-        <a
-          href="./Single.jsx"
-          className="fh5co-close-offcanvas js-fh5co-close-offcanvas"
-        >
-          <span>
-            <i className="icon-cross3"></i> <span>Close</span>
-          </span>
-        </a>
-        <div className="fh5co-bio">
-          <figure>
-            <img
-              src="../../public/assets/images/person1.jpg"
-              alt="Free HTML5 Bootstrap Template"
-              className="img-responsive"
-            />
-          </figure>
-          <h3 className="heading">About Me</h3>
-          <h2>Emily Tran Le</h2>
-          <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-          <ul className="fh5co-social">
-            <li>
-              <a href="./Single.jsx">
-                <i className="icon-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="./Single.jsx">
-                <i className="icon-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="./Single.jsx">
-                <i className="icon-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="fh5co-menu">
-          <div className="fh5co-box">
-            <h3 className="heading">Categories</h3>
-            <ul>
-              <li>
-                <a href="./Single.jsx">Travel</a>
-              </li>
-              <li>
-                <a href="./Single.jsx">Style</a>
-              </li>
-              <li>
-                <a href="./Single.jsx">Photography</a>
-              </li>
-              <li>
-                <a href="./Single.jsx">Food &amp; Drinks</a>
-              </li>
-              <li>
-                <a href="./Single.jsx">Culture</a>
-              </li>
-            </ul>
-          </div>
-          <div className="fh5co-box">
-            <h3 className="heading">Search</h3>
-            <form action="#">
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Type a keyword"
-                />
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <Header />
       <a href="./Single.jsx" className="fh5co-post-prev">
         <span>
           <i className="icon-chevron-left"></i> Prev
@@ -93,13 +13,12 @@ function Single() {
           Next <i className="icon-chevron-right"></i>
         </span>
       </a>
-      {/* <!-- END #fh5co-header --> */}
       <div className="container-fluid">
         <div className="row fh5co-post-entry single-entry">
           <article className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
             <figure className="animate-box">
               <img
-                src="../../public/assets/images/single_1.jpg"
+                src={require("../images/single_1.jpg")}
                 alt="Image"
                 className="img-responsive"
               />
@@ -121,7 +40,7 @@ function Single() {
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large{" "}
+                    coast of the Semantics, a large
                     <a href="./Single.jsx">language</a>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
@@ -212,7 +131,7 @@ function Single() {
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large{" "}
+                    coast of the Semantics, a large
                     <a href="./Single.jsx">language</a>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
@@ -226,7 +145,7 @@ function Single() {
                 <div className="col-lg-6 col-lg-push-6 col-md-12 col-md-push-0 animate-box">
                   <figure>
                     <img
-                      src="../../public/assets/images/pic_4.jpg"
+                      src={require("../images/pic_4.jpg")}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -262,7 +181,7 @@ function Single() {
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large{" "}
+                    coast of the Semantics, a large
                     <a href="./Single.jsx">language</a>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
@@ -279,7 +198,7 @@ function Single() {
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large{" "}
+                    coast of the Semantics, a large
                     <a href="./Single.jsx">language</a>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
@@ -299,7 +218,7 @@ function Single() {
                 <div className="col-md-4 animate-box">
                   <figure>
                     <img
-                      src="../../public/assets/images/pic_5.jpg"
+                      src={require("../images/pic_5.jpg")}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -313,7 +232,7 @@ function Single() {
                 <div className="col-md-4 animate-box">
                   <figure>
                     <img
-                      src="../../public/assets/images/pic_6.jpg"
+                      src={require("../images/pic_6.jpg")}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -327,7 +246,7 @@ function Single() {
                 <div className="col-md-4 animate-box">
                   <figure>
                     <img
-                      src="../../public/assets/images/pic_7.jpg"
+                      src={require("../images/pic_7.jpg")}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -344,7 +263,7 @@ function Single() {
                     Far far away, behind the word mountains, far from the
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
-                    coast of the Semantics, a large{" "}
+                    coast of the Semantics, a large
                     <a href="./Single.jsx">language</a> ocean. A small river
                     named Duden flows by their place and supplies it with the
                     necessary regelialia. It is a paradisematic country, in
@@ -365,7 +284,6 @@ function Single() {
           </article>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

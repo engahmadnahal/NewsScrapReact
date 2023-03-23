@@ -1,5 +1,8 @@
+import React from "react";
+
 function Footer() {
   return (
+    // <!--  #fh5co-footer -->
     <footer id="fh5co-footer">
       <p>
         <small>
