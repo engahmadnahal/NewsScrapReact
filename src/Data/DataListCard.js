@@ -1,7 +1,7 @@
 const DataList = [
   {
     id: 1,
-    imagePath: "../images/pic_1.jpg",
+    imagePath: require("../images/pic_1.jpg"),
     categoris: "Food &amp; Drink",
     articleTitle: "Boat Travel in The Vietnam River",
   },

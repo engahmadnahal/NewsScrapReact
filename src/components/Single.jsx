@@ -98,7 +98,11 @@ function Single() {
               <div className="row rp-b">
                 <div className="col-lg-6 col-md-12 animate-box">
                   <figure>
-                    {/* <img src="/pic_1.jpg" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" className="img-responsive"> */}
+                    <img
+                      src={require("../images/pic_1.jpg")}
+                      alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
+                      className="img-responsive"
+                    />
                     <figcaption>
                       This is a sweet image caption. Far far away, behind the
                       word mountains, far from the countries Vokalia and
