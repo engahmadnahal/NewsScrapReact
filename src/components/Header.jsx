@@ -27,17 +27,17 @@ function Header() {
           </p>
           <ul className="fh5co-social">
             <li>
-              <a href="/">
+              <a href="https://twitter.com/CNN?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
                 <i className="icon-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="https://www.facebook.com/cnn/">
                 <i className="icon-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="https://www.instagram.com/foxnews/?hl=en">
                 <i className="icon-instagram"></i>
               </a>
             </li>
@@ -93,17 +93,17 @@ function Header() {
             </a>
             <ul className="fh5co-social">
               <li>
-                <a href="/">
+                <a href="https://twitter.com/CNN?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
                   <i className="icon-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="https://www.facebook.com/cnn/">
                   <i className="icon-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="https://www.instagram.com/foxnews/?hl=en">
                   <i className="icon-instagram"></i>
                 </a>
               </li>
