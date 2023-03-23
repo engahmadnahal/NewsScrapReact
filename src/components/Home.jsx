@@ -1,13 +1,34 @@
 import React from "react";
 import Card from "./ArticleCard";
+import DataList from "../Data/DataListCard";
 
 function Home() {
+  const listCard = DataList.map((element) => {
+    if (element.id % 4 === 0) {
+      return <div className="clearfix visible-xs-block"></div>;
+      // } else if (element.id % 4 === 0) {
+      //   return (
+      //     <div className="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+      //   );
+    } else {
+      return (
+        <Card
+          key={element.id}
+          imgPath={element.imagePath}
+          categoris={element.categoris}
+          articleTitle={element.articleTitle}
+          element={element}
+        />
+      );
+    }
+  });
   return (
     // <!--  #container-fluid -->
     <div className="container-fluid">
       <div className="row fh5co-post-entry">
-        <Card
-          imgPath={require("../images/pic_1.jpg").default}
+        {listCard}
+        {/* <Card
+          imgPath="../images/pic_1.jpg"
           categoris="Food &amp; Drink"
           articleTitle="Boat Travel in The Vietnam River"
         />
@@ -99,7 +120,7 @@ function Home() {
           categoris="Travel,Style"
           articleTitle="Beef Steak at Guatian Restaurant"
         />
-        <div className="clearfix visible-xs-block"></div>
+        <div className="clearfix visible-xs-block"></div> */}
       </div>
     </div>
   );
