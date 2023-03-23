@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -48,19 +49,24 @@ function Header() {
             <h3 className="heading">Categories</h3>
             <ul>
               <li>
-                <a href="./Single">Travel</a>
+                <Link to="/Single">Travel</Link>
+                {/* <a href="single">Travel</a> */}
               </li>
               <li>
-                <a href="../Single">Style</a>
+                <Link to="/Single">Style</Link>
+                {/* <a href="../Single">Style</a> */}
               </li>
               <li>
-                <a href="../Single">Photography</a>
+                <Link to="/Single">Photography</Link>
+                {/* <a href="../Single">Photography</a> */}
               </li>
               <li>
-                <a href="../Single">Food &amp; Drinks</a>
+                <Link to="/Single">Food &amp; Drinks</Link>
+                {/* <a href="../Single">Food &amp; Drinks</a> */}
               </li>
               <li>
-                <a href="../Single">Culture</a>
+                <Link to="/Single">Culture</Link>
+                {/* <a href="../Single">Culture</a> */}
               </li>
             </ul>
           </div>
