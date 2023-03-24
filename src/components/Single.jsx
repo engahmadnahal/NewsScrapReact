@@ -9,21 +9,11 @@ function Single() {
           <i className="icon-chevron-left"></i> Prev
         </span>
       </Link>
-      {/* <a href="/" className="fh5co-post-prev">
-        <span>
-          <i className="icon-chevron-left"></i> Prev
-        </span>
-      </a> */}
       <Link to="/single" className="fh5co-post-next">
         <span>
           Next <i className="icon-chevron-right"></i>
         </span>
       </Link>
-      {/* <a href="./Single" className="fh5co-post-next">
-        <span>
-          Next <i className="icon-chevron-right"></i>
-        </span>
-      </a> */}
       <div className="container-fluid">
         <div className="row fh5co-post-entry single-entry">
           <article className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">

@@ -65,7 +65,7 @@ function Home() {
           categoris="Travel,Style"
           articleTitle="Beef Steak at Guatian Restaurant"
         />
-
+        <div className="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
         <Card
           imgPath={require("../images/pic_1.jpg")}
           categoris="Food &amp; Drink"
@@ -112,6 +112,7 @@ function Home() {
           categoris="Travel,Style"
           articleTitle="Beef Steak at Guatian Restaurant"
         />
+        <div className="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
       </div>
     </div>
   );
