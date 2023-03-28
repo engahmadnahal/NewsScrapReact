@@ -7,7 +7,7 @@ import pic_5 from "../images/pic_5.jpg";
 import pic_6 from "../images/pic_6.jpg";
 import pic_7 from "../images/pic_7.jpg";
 
-function Single() {
+function Single(props) {
   return (
     <div className="singlePage">
       <Link to="/" className="fh5co-post-prev">
@@ -31,7 +31,7 @@ function Single() {
               />
             </figure>
             <span className="fh5co-meta animate-box">
-              <Link to="/Single">Travel</Link>
+              <Link to="/Single">{props.categori}</Link>
             </span>
             <h2 className="fh5co-article-title animate-box">
               <Link to="/Single">My First Time Traveling in Vietnam</Link>
