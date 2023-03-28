@@ -8,7 +8,7 @@ export const RouterPag = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Single" element={<Single />} />
+      <Route path="/Single" element={<Single categori="sup_titel" />} />
     </Routes>
   );
 };

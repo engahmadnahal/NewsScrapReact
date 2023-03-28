@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Card(props) {
+  const handelCategori = () => {
+    // {props.articleTitle};
+  };
   return (
     <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
       <figure>
@@ -10,7 +13,9 @@ function Card(props) {
         </Link>
       </figure>
       <span className="fh5co-meta">
-        <Link to="/DiscrNews">{props.categoris}</Link>
+        <Link to="/DiscrNews" onClick={handelCategori}>
+          {props.categoris}
+        </Link>
       </span>
       <h2 className="fh5co-article-title">
         <Link to="/Single">{props.articleTitle}</Link>
