@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // ----------
+import single_1 from "../images/single_1.jpg";
 import pic_1 from "../images/pic_1.jpg";
 import pic_4 from "../images/pic_4.jpg";
 import pic_5 from "../images/pic_5.jpg";
@@ -25,7 +26,7 @@ function Single(props) {
           <article className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
             <figure className="animate-box">
               <img
-                src={require("../images/single_1.jpg")}
+                src={single_1}
                 alt="phot"
                 className="img-responsive"
               />
