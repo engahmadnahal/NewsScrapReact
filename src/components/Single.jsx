@@ -1,5 +1,11 @@
-import { Link } from "react-router-dom";
 import React from "react";
+import { Link } from "react-router-dom";
+// ----------
+import pic_1 from "../images/pic_1.jpg";
+import pic_4 from "../images/pic_4.jpg";
+import pic_5 from "../images/pic_5.jpg";
+import pic_6 from "../images/pic_6.jpg";
+import pic_7 from "../images/pic_7.jpg";
 
 function Single() {
   return (
@@ -25,10 +31,10 @@ function Single() {
               />
             </figure>
             <span className="fh5co-meta animate-box">
-              <a href="/Single">Travel</a>
+              <Link to="/Single">Travel</Link>
             </span>
             <h2 className="fh5co-article-title animate-box">
-              <a href="/Single">My First Time Traveling in Vietnam</a>
+              <Link to="/Single">My First Time Traveling in Vietnam</Link>
             </h2>
             <span className="fh5co-meta fh5co-date animate-box">
               March 6th, 2016
@@ -42,7 +48,7 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="/Single">language</a>
+                    <Link to="/Single">language</Link>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences
@@ -100,7 +106,7 @@ function Single() {
                 <div className="col-lg-6 col-md-12 animate-box">
                   <figure>
                     <img
-                      src={require("../images/pic_1.jpg")}
+                      src={/* require("../images/pic_1.jpg")*/ pic_1}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -137,7 +143,7 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="/Single">language</a>
+                    <Link to="/Single">language</Link>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences
@@ -150,7 +156,7 @@ function Single() {
                 <div className="col-lg-6 col-lg-push-6 col-md-12 col-md-push-0 animate-box">
                   <figure>
                     <img
-                      src={require("../images/pic_4.jpg")}
+                      src={pic_4}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -187,7 +193,7 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="/Single">language</a>
+                    <Link to="/Single">language</Link>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences
@@ -204,7 +210,7 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="/Single">language</a>
+                    <Link to="/Single">language</Link>
                     ocean. A small river named Duden flows by their place and
                     supplies it with the necessary regelialia. It is a
                     paradisematic country, in which roasted parts of sentences
@@ -223,7 +229,7 @@ function Single() {
                 <div className="col-md-4 animate-box">
                   <figure>
                     <img
-                      src={require("../images/pic_5.jpg")}
+                      src={pic_5}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -237,7 +243,7 @@ function Single() {
                 <div className="col-md-4 animate-box">
                   <figure>
                     <img
-                      src={require("../images/pic_6.jpg")}
+                      src={pic_6}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -251,7 +257,7 @@ function Single() {
                 <div className="col-md-4 animate-box">
                   <figure>
                     <img
-                      src={require("../images/pic_7.jpg")}
+                      src={pic_7}
                       alt="Free HTML5 Bootstrap Template by FREEHTML5.co"
                       className="img-responsive"
                     />
@@ -269,8 +275,8 @@ function Single() {
                     countries Vokalia and Consonantia, there live the blind
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large
-                    <a href="/Single">language</a> ocean. A small river named
-                    Duden flows by their place and supplies it with the
+                    <Link to="/Single">language</Link> ocean. A small river
+                    named Duden flows by their place and supplies it with the
                     necessary regelialia. It is a paradisematic country, in
                     which roasted parts of sentences fly into your mouth.
                   </p>
