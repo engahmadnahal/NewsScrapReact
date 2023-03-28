@@ -50,23 +50,18 @@ function Header() {
             <ul>
               <li>
                 <Link to="/Single">Travel</Link>
-                {/* <a href="single">Travel</a> */}
               </li>
               <li>
                 <Link to="/Single">Style</Link>
-                {/* <a href="../Single">Style</a> */}
               </li>
               <li>
                 <Link to="/Single">Photography</Link>
-                {/* <a href="../Single">Photography</a> */}
               </li>
               <li>
                 <Link to="/Single">Food &amp; Drinks</Link>
-                {/* <a href="../Single">Food &amp; Drinks</a> */}
               </li>
               <li>
                 <Link to="/Single">Culture</Link>
-                {/* <a href="../Single">Culture</a> */}
               </li>
             </ul>
           </div>
@@ -110,9 +105,9 @@ function Header() {
             </ul>
             <div className="col-lg-12 col-md-12 text-center">
               <h1 id="fh5co-logo">
-                <a href="/">
+                <Link to="/">
                   Magazine <sup>TM</sup>
-                </a>
+                </Link>
               </h1>
             </div>
           </div>
