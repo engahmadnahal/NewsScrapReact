@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import DiscrNews from "../components/DiscrNews";
+import DiscrNews from "./DiscrNews";
 
-import Home from "../components/Home";
-import Single from "../components/Single";
+import Home from "./Home";
+import Single from "./Single";
 
 export const RouterPag = () => {
   return (
