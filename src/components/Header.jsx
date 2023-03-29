@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import person_1 from "../images/person1.jpg";
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
         <div className="fh5co-bio">
           <figure>
             <img
-              src={require("../images/person1.jpg")}
+              src={person_1}
               alt="Magazine TM Scraping"
               className="img-responsive"
             />
@@ -49,7 +50,7 @@ function Header() {
             <h3 className="heading">Categories</h3>
             <ul>
               <li>
-                <Link to="/Single">Travel</Link>
+                <Link to="/CategorieNews">Travel</Link>
               </li>
               <li>
                 <Link to="/Single">Style</Link>
