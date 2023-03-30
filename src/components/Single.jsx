@@ -25,17 +25,13 @@ function Single(props) {
         <div className="row fh5co-post-entry single-entry">
           <article className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
             <figure className="animate-box">
-              <img
-                src={single_1}
-                alt="phot"
-                className="img-responsive"
-              />
+              <img src={single_1} alt="phot" className="img-responsive" />
             </figure>
             <span className="fh5co-meta animate-box">
-              <Link to="/Single">{props.categori}</Link>
+              <Link to="/CategorieNews">{props.categori}</Link>
             </span>
             <h2 className="fh5co-article-title animate-box">
-              <Link to="/Single">My First Time Traveling in Vietnam</Link>
+              My First Time Traveling in Vietnam
             </h2>
             <span className="fh5co-meta fh5co-date animate-box">
               March 6th, 2016

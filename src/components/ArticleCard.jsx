@@ -8,17 +8,18 @@ function Card(props) {
   return (
     <article className="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
       <figure>
-        <Link to="/DiscrNews">
+        <Link to="/Single">
           <img src={props.imgPath} alt="souvenir" className="img-responsive" />
         </Link>
       </figure>
       <span className="fh5co-meta">
-        <Link to="/Single" onClick={handelCategori}>
+        <Link to="/CategorieNews" onClick={handelCategori}>
           {props.categoris}
         </Link>
       </span>
-      <h2 className="fh5co-article-title">
-        <Link to="/DiscrNews">{props.articleTitle}</Link>
+      <h2 className="fh5co-article-title" style={props.style}>
+        {/* <Link to="/DiscrNews">{props.articleTitle}</Link> */}
+        {props.articleTitle}
       </h2>
       <span className="fh5co-meta fh5co-date">March 6th, 2016</span>
     </article>

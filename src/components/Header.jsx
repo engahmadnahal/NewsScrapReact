@@ -53,16 +53,16 @@ function Header() {
                 <Link to="/CategorieNews">Travel</Link>
               </li>
               <li>
-                <Link to="/Single">Style</Link>
+                <Link to="/CategorieNews">Style</Link>
               </li>
               <li>
-                <Link to="/Single">Photography</Link>
+                <Link to="/CategorieNews">Photography</Link>
               </li>
               <li>
-                <Link to="/Single">Food &amp; Drinks</Link>
+                <Link to="/CategorieNews">Food &amp; Drinks</Link>
               </li>
               <li>
-                <Link to="/Single">Culture</Link>
+                <Link to="/CategorieNews">Culture</Link>
               </li>
             </ul>
           </div>
