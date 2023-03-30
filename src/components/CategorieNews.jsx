@@ -8,6 +8,7 @@ function CategoriesNews(props) {
   const card_style = {
     fontSize: "34px ",
   };
+
   return (
     <div className="singlePage">
       <Link to="/" className="fh5co-post-prev">
@@ -88,7 +89,7 @@ function CategoriesNews(props) {
               style={card_style}
             />
             <div className="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-            
+
             <Card
               imgPath={single_1}
               categoris="Food &amp; Drink"

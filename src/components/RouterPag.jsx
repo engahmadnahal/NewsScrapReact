@@ -11,7 +11,6 @@ export const RouterPag = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Single" element={<Single categori="sup_titel" />} />
-      
       <Route
         path="/CategorieNews"
         element={<CategorieNews categori="sup_titel" />}
