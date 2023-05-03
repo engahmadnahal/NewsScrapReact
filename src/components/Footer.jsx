@@ -13,7 +13,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Athar Team
+            framtíðin Team
           </a>
           &nbsp; Demo Images:&nbsp;
           <a
