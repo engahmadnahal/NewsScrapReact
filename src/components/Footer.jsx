@@ -6,7 +6,7 @@ function Footer() {
     <footer id="fh5co-footer">
       <p>
         <small>
-          &copy; 2023. Magazine TM News. <br />
+          &copy; 2023. GoalSports News. <br />
           Designed by &nbsp;
           <a
             href="https://github.com/engahmadnahal/NewsScrapReact"
