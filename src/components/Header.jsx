@@ -47,25 +47,25 @@ function Header() {
 
         <div className="fh5co-menu">
           <div className="fh5co-box">
-            <h3 className="heading">Categories</h3>
+            <h3 className="heading">Main Categories</h3>
             <ul>
               <li>
-                <Link to="/CategorieNews">Football</Link>
+                <Link to="/MainCategorieNews">Football</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">Tennis</Link>
+                <Link to="/MainCategorieNews">Tennis</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">Basketball</Link>
+                <Link to="/MainCategorieNews">Basketball</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">Cricket</Link>
+                <Link to="/MainCategorieNews">Cricket</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">Motorsports</Link>
+                <Link to="/MainCategorieNews">Motorsports</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">NBA</Link>
+                <Link to="/MainCategorieNews">NBA</Link>
               </li>
             </ul>
           </div>

@@ -29,7 +29,7 @@ function Single(props) {
               <img src={single_1} alt="phot" className="img-responsive" />
             </figure>
             <span className="fh5co-meta animate-box">
-              <Link to="/CategorieNews">{props.categori}</Link>
+              <Link to="/MainCategorieNews">{props.categori}</Link>
             </span>
             <h2 className="fh5co-article-title animate-box">
               My First Time Traveling in Vietnam
