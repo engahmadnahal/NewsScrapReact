@@ -1,12 +1,14 @@
 import React from "react";
 
 function Footer() {
+  const date = new Date();
+  let year = date.getFullYear();
   return (
     // <!--  #fh5co-footer -->
     <footer id="fh5co-footer">
       <p>
         <small>
-          &copy; 2023. GoalSports News. <br />
+          &copy; {year}. GoalSports News. <br />
           Designed by &nbsp;
           <a
             href="https://github.com/engahmadnahal/NewsScrapReact"
@@ -15,13 +17,13 @@ function Footer() {
           >
             framtíðin Team
           </a>
-          &nbsp; Demo Images:&nbsp;
+          &nbsp; The News Sources:&nbsp;
           <a
-            href="http://unsplash.com/"
+            href="https://www.beinsports.com/en/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Unsplash
+            BeinSports
           </a>
         </small>
       </p>
