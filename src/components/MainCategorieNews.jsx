@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Card from "./ArticleCard";
+import DataList from "../Data/DataListCard";
 // ----------
 import single_1 from "../images/single_1.jpg";
 
@@ -8,6 +9,19 @@ function CategoriesNews(props) {
   const card_style = {
     fontSize: "34px ",
   };
+
+  const listCard = DataList.map((element) => {
+    return (
+      <Card
+        key={element.id}
+        imgPath={single_1}
+        categoris={element.categoris}
+        articleTitle={element.articleTitle}
+        element={element}
+        style={card_style}
+      />
+    );
+  });
 
   return (
     <div className="singlePage">
@@ -35,75 +49,7 @@ function CategoriesNews(props) {
             className="row fh5co-post-entry"
             style={{ marginLeft: 5, marginRight: 5 }}
           >
-            <Card
-              imgPath={single_1}
-              categoris="Food &amp; Drink"
-              articleTitle="Boat Travel in The Vietnam River"
-              style={card_style}
-            />
-            <Card
-              imgPath={single_1}
-              categoris="Food &amp; Drink"
-              articleTitle="Enjoying the Native Juice Drink in Brazil"
-              style={card_style}
-            />
-            <div className="clearfix visible-xs-block"></div>
-
-            <Card
-              imgPath={single_1}
-              categoris="Travel,Style"
-              articleTitle="A Modernize Huge and Beautiful Building"
-              style={card_style}
-            />
-            <Card
-              imgPath={single_1}
-              categoris="Photography"
-              articleTitle="We Took A Photo"
-              style={card_style}
-            />
-            <div className="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-
-            <Card
-              imgPath={single_1}
-              categoris="Food &amp; Drink"
-              articleTitle="Boat Travel in The Vietnam River"
-              style={card_style}
-            />
-            <Card
-              imgPath={single_1}
-              categoris="Food &amp; Drink"
-              articleTitle="Enjoying the Native Juice Drink in Brazil"
-              style={card_style}
-            />
-            <div className="clearfix visible-xs-block"></div>
-
-            <Card
-              imgPath={single_1}
-              categoris="Travel,Style"
-              articleTitle="A Modernize Huge and Beautiful Building"
-              style={card_style}
-            />
-            <Card
-              imgPath={single_1}
-              categoris="Food &amp; Drink"
-              articleTitle="Enjoying the Native Juice Drink in Brazil"
-              style={card_style}
-            />
-            <div className="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
-
-            <Card
-              imgPath={single_1}
-              categoris="Food &amp; Drink"
-              articleTitle="Boat Travel in The Vietnam River"
-              style={card_style}
-            />
-            <Card
-              imgPath={single_1}
-              categoris="Food &amp; Drink"
-              articleTitle="Enjoying the Native Juice Drink in Brazil"
-              style={card_style}
-            />
-            <div className="clearfix visible-xs-block"></div>
+            {listCard}
           </div>
         </div>
       </div>
