@@ -110,7 +110,7 @@ function Header() {
               </li>
             </ul>
             <div className="col-lg-12 col-md-12 text-center">
-              <h1 id="fh5co-logo">
+              <h1 id="fh5co-logo" className="logo-size">
                 <Link to="/">
                   GoalSports <sup>News</sup>
                 </Link>
