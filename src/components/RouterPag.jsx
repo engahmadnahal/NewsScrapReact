@@ -10,10 +10,10 @@ export const RouterPag = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Single" element={<Single categori="sup_titel" />} />
+      <Route path="/Single" element={<Single categori="Basketball" />} />
       <Route
         path="/MainCategorieNews"
-        element={<MainCategorieNews categori="sup_titel" />}
+        element={<MainCategorieNews categori="Basketball" />}
       />
       <Route path="/DiscrNews" element={<DiscrNews />} />
     </Routes>

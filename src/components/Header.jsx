@@ -18,6 +18,7 @@ function Header() {
               src={person_1}
               alt="GoalSports News: Scraping"
               className="img-responsive"
+              style={{ height: "20rem" }}
             />
           </figure>
           <h3 className="heading">About Me</h3>

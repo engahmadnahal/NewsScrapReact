@@ -26,7 +26,12 @@ function Single(props) {
         <div className="row fh5co-post-entry single-entry">
           <article className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
             <figure className="animate-box">
-              <img src={single_1} alt="phot" className="img-responsive" />
+              <img
+                src={single_1}
+                alt="phot"
+                className="img-responsive"
+                style={{ width: "100%" }}
+              />
             </figure>
             <span className="fh5co-meta animate-box">
               <Link to="/MainCategorieNews">{props.categori}</Link>

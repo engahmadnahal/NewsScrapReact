@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./ArticleCard";
-import DataList from "../Data/DataListCard";
+import DataList from "../Data/LatestNews";
 // ----------
 // import pic_1 from "../images/pic_1.jpg";
 // import pic_2 from "../images/pic_2.jpg";
@@ -21,6 +21,7 @@ function Home() {
           categoris={element.categoris}
           articleTitle={element.articleTitle}
           element={element}
+          imgStyle="img-responsiveHome"
         />
       </>
     );

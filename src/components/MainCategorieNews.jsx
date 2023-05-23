@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Card from "./ArticleCard";
-import DataList from "../Data/DataListCard";
+import DataList from "../Data/News";
 // ----------
 import single_1 from "../images/single_1.jpg";
 
 function CategoriesNews(props) {
-  const card_style = {
-    fontSize: "34px ",
+  const text_style = {
+    fontSize: "23px ",
   };
 
   const listCard = DataList.map((element) => {
@@ -18,7 +18,8 @@ function CategoriesNews(props) {
         categoris={element.categoris}
         articleTitle={element.articleTitle}
         element={element}
-        style={card_style}
+        textStyle={text_style}
+        imgStyle="img-responsive"
       />
     );
   });
